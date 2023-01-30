@@ -3,10 +3,9 @@ import styled from 'styled-components/native'
 
 
 export const Container = styled.View`
-    width: 98%;
-    height: 30%;
-    margin: 0 auto;
-    margin-top: 20px;
+    width: 100%;
+    background-color: #131131;
+    height: 100%;
 `
 
 export const Content = styled.View`
@@ -28,7 +27,6 @@ export const Lang = styled.Text`
 `
 
 export const ScrollerViewer = styled.ScrollView`
-    border: 1px solid black;
     border-radius: 15px;
     padding: 5px;
 `

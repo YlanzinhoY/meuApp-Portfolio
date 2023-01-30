@@ -1,6 +1,6 @@
 import { Container, H1, DivContent, ImgContent, H2, Hr} from "../../components/Header/style"
 import { Image } from 'phosphor-react-native'
-import { Competencias } from "@components/Competencias";
+import { Competencias } from "@screens/Competencias";
 
 type Props = {
     textMain: string
@@ -16,7 +16,6 @@ export function Header({textMain, textSecondary}: Props) {
                 <H2>{textSecondary}</H2>
             </DivContent>
                 <Hr />
-            <Competencias textMain="Minhas compretencias" />
-    </Container>
+        </Container>
     )
 }

@@ -1,12 +1,14 @@
 import { Container, H2, Lang, ProgressBar100, ProgressBar80, ScrollerViewer, Content} from "./style"
 
-import { ScrollView } from "react-native"
+import { View, Text} from "react-native";
+
 
 type Props = {
     textMain: string
 }
 
-export function Competencias({textMain}: Props) {
+
+export function Competencias({ textMain }: Props) {
     return(
         <Container>
             <H2>{textMain}</H2>
@@ -30,7 +32,9 @@ export function Competencias({textMain}: Props) {
                     <ProgressBar80 />
                 </Content>
             </ScrollerViewer>
-
+           
         </Container>
+
+
     )
 }

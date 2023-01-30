@@ -1,0 +1,3 @@
+<ThemeProvider theme={theme}>
+                <Competencias textMain="Minha stack"/>
+            </ThemeProvider> 
